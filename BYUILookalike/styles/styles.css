@@ -1,12 +1,12 @@
+/* 
+* {
+    border: 2px solid blue;
+}
+*/
 nav, footer  {
     background-color: steelblue;
     color: white;
     padding:   10px;
-}
-
-footer p {
-    font-size: 30px;
-    margin: 20px  auto;
 }
 
 a:hover {
@@ -14,3 +14,23 @@ a:hover {
     color: steelblue;
 }
 
+img {
+    width: 80%;
+    display: block;
+    margin: 0  auto;
+}
+
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+body, h1, nav, footer {
+    text-align: center;
+}
+
+footer p {
+    font-size: 30px;
+    margin: 20px  auto;
+}

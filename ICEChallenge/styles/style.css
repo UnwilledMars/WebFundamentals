@@ -22,6 +22,10 @@ p.smallquote {
     color: white;
 }
 
+img.nelson   {
+    margin: auto;
+}
+
 ol {
     color: black;
     font-weight: bold;

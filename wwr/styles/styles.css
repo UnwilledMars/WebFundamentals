@@ -3,6 +3,48 @@ div#content{
     margin: 0 auto;
 }
 
-nav a, div#hero{
-
+nav a, div#hero_message h1, div#hero_message h4, div.button_box, main section {
+text-align: center;
 }
+
+div#background {
+    height: 725px;
+}
+
+body {
+    background-color: black;
+}
+
+ header{
+    background-color: aquamarine;
+ }
+
+  nav a:hover{
+    background-color: bisque;
+  }
+
+a.book {
+    background-color: yellowgreen;
+}
+ a.book:hover{
+    background-color: blue;
+ }
+
+a.join{
+    background-color: yellow;
+}
+a.join:hover {
+    background-color: blueviolet;
+}
+
+div#background {
+    background-color: coral;
+}
+
+section.msgm {
+    background-color: cornflowerblue;
+}
+
+ footer{
+    background-color: crimson;
+ }

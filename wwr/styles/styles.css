@@ -12,39 +12,74 @@ div#background {
 }
 
 body {
-    background-color: black;
+    background-color: #28251a;
 }
 
- header{
-    background-color: aquamarine;
+header{
+    background-color: #6f0808;
  }
 
-  nav a:hover{
-    background-color: bisque;
+
+nav a:hover{
+    background-color: #ffd342;
+    color: #f53737;
   }
+nav a {
+    color: #ffd342;
+    text-decoration: none;
+}
+
+
+main {
+    color: #f53737;
+}
+section#hero_message {
+    background-color: #6f0808;
+    color: #ffd342;
+}
 
 a.book {
-    background-color: yellowgreen;
+    background-color: #f53737;
+    color: #ffd342;
+    text-decoration: none;
 }
  a.book:hover{
-    background-color: blue;
+    background-color: #ffd342;
+    color: #f53737;
  }
+
 
 a.join{
-    background-color: yellow;
+    background-color: #ffd342;
+    color: #f53737;
+    text-decoration: none;
 }
 a.join:hover {
-    background-color: blueviolet;
+    background-color: #f53737;
+    color: #ffd342;
 }
+
 
 div#background {
-    background-color: coral;
+    background-color: #ffd342;
 }
 
-section.msgm {
-    background-color: cornflowerblue;
+section.msg {
+    background-color: #ffd342;
+    color: #28251a;
 }
 
- footer{
-    background-color: crimson;
+footer {
+    background-color: #6f0808;
+    color: #ffd342;
+    font-size: 1.3em;
  }
+footer a{
+    color: #ffd342;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #f53737;
+    background-color: #ffd342;
+    text-decoration: underline;
+}

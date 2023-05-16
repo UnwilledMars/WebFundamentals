@@ -15,8 +15,13 @@ body {
     background-color: #28251a;
 }
 
-header{
+header {
     background-color: #6f0808;
+ }
+
+
+img.logo, img.icon {
+    max-width: 80px;
  }
 
 

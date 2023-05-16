@@ -3,7 +3,7 @@ div#content{
     margin: 0 auto;
 }
 
-nav a, div#hero_message h1, div#hero_message h4, div.button_box, main section {
+nav a, section#hero_message h1, section#hero_message h4, div.button_box, main section {
 text-align: center;
 }
 

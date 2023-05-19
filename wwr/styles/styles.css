@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap & https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+
+header, footer {
+    font-family: 'Bruno Ace', 'Roboto Slab', Arial, Helvetica, sans-serif;
+}
+
+h1, h2  {
+    font-family: 'Bruno Ace', 'Roboto Slab', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+h4, p, a {
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+}
+
+a.book, a.join {
+    font-size: 18px;
+}
+
+
+
+
+
 div#content{
     max-width: 1600px;
     margin: 0 auto;
@@ -13,6 +36,9 @@ div#background {
 
 body {
     background-color: #28251a;
+    margin: 0;
+    padding: 0;
+    
 }
 
 header {
@@ -38,9 +64,11 @@ nav a {
 main {
     color: #f53737;
 }
+
 section#hero_message {
     background-color: #6f0808;
     color: #ffd342;
+    line-height: 1.5em;
 }
 
 a.book {
@@ -53,6 +81,9 @@ a.book {
     color: #f53737;
  }
 
+ h2 {
+    margin: 0;
+ }
 
 a.join{
     background-color: #ffd342;

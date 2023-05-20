@@ -54,8 +54,15 @@ main {
 main.home_grid{
     margin-top: 15px;
 }
-section.camping_card, section.rivers_card, section.rapids_card {
+main section img{
+    box-sizing: border-box;
+}
+section.camping_card, section.rivers_card, section.rapids_card, img.mountains {
     margin-top: 200px;
+    margin-bottom: 200px;
+}
+img.card_img {
+    border: 10px solid #6f0808;
 }
 
 section#hero_message {
@@ -88,12 +95,15 @@ nav a {
     padding: 35px;
 }
 
-
+a.book, a.join {
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 5px;
+}
 a.book {
     background-color: #f53737;
     color: #ffd342;
-    text-decoration: none;
-    padding: 15px 35px;
+
 }
  a.book:hover{
     background-color: #ffd342;
@@ -109,6 +119,7 @@ a.join{
     color: #f53737;
     text-decoration: none;
     padding: 15px 35px;
+    border-radius: 5px;
 }
 a.join:hover {
     background-color: #f53737;
@@ -129,6 +140,7 @@ footer {
     color: #ffd342;
     font-size: 1.3em;
     padding: 25px 50px;
+    margin-top: 200px;
  }
 footer a{
     color: #ffd342;

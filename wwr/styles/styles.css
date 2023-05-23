@@ -71,6 +71,10 @@ section#hero_message {
     line-height: 1.5em;
 }
 
+div#hero_box img#hero_img{
+    size: 100%;
+}
+
 a.book {
     background-color: #f53737;
     color: #ffd342;

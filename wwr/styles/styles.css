@@ -30,7 +30,9 @@ div#content{
 nav a, section#hero_message h1, section#hero_message h4, div.button_box, main section, div#hero_box {
 text-align: center;
 }
-
+img#hero_img{
+    width: 100%; 
+}
 div#background {
     height: 725px;
     background-color: #ffd342;

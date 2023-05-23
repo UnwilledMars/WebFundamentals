@@ -1,3 +1,4 @@
+/*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap & https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
 
 header, footer {
@@ -20,18 +21,19 @@ a.book, a.join {
 
 
 
-
+/*Header and Body*/
 div#content{
     max-width: 1600px;
     margin: 0 auto;
 }
 
-nav a, section#hero_message h1, section#hero_message h4, div.button_box, main section {
+nav a, section#hero_message h1, section#hero_message h4, div.button_box, main section, div#hero_box {
 text-align: center;
 }
 
 div#background {
     height: 725px;
+    background-color: #ffd342;
 }
 
 body {
@@ -46,11 +48,43 @@ header {
  }
 
 
+main {
+    color: #f53737;
+}
+main.home_grid{
+    margin-top: 15px;
+}
+main section img{
+    box-sizing: border-box;
+}
+section.camping_card, section.rivers_card, section.rapids_card, img.mountains {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+img.card_img {
+    border: 10px solid #6f0808;
+}
+
+section#hero_message {
+    background-color: #6f0808;
+    color: #ffd342;
+    line-height: 1.5em;
+    padding-bottom: 35px
+}
+section h4 {
+    padding-bottom: 15px;
+}
+
+/*buttons and navigation*/
 img.logo, img.icon {
     max-width: 80px;
  }
-
-
+ img.icon {
+    padding-top: 10px;
+ }
+a#logo_link {
+    padding-top: 5px;
+}
 nav a:hover{
     background-color: #ffd342;
     color: #f53737;
@@ -58,27 +92,18 @@ nav a:hover{
 nav a {
     color: #ffd342;
     text-decoration: none;
+    padding: 35px;
 }
 
-
-main {
-    color: #f53737;
+a.book, a.join {
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 5px;
 }
-
-section#hero_message {
-    background-color: #6f0808;
-    color: #ffd342;
-    line-height: 1.5em;
-}
-
-div#hero_box img#hero_img{
-    size: 100%;
-}
-
 a.book {
     background-color: #f53737;
     color: #ffd342;
-    text-decoration: none;
+
 }
  a.book:hover{
     background-color: #ffd342;
@@ -93,6 +118,8 @@ a.join{
     background-color: #ffd342;
     color: #f53737;
     text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 5px;
 }
 a.join:hover {
     background-color: #f53737;
@@ -100,19 +127,20 @@ a.join:hover {
 }
 
 
-div#background {
-    background-color: #ffd342;
-}
 
 section.msg {
     background-color: #ffd342;
     color: #28251a;
+    padding: 35px;
 }
 
+/*footer area*/
 footer {
     background-color: #6f0808;
     color: #ffd342;
     font-size: 1.3em;
+    padding: 25px 50px;
+    margin-top: 200px;
  }
 footer a{
     color: #ffd342;
@@ -122,4 +150,7 @@ footer a:hover{
     color: #f53737;
     background-color: #ffd342;
     text-decoration: underline;
+}
+footer div.socials {
+    padding-top: 15px;
 }

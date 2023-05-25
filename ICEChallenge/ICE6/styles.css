@@ -1,10 +1,29 @@
 div.grid_container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
 }
 
 
-div.tartsweet  div.cherriestxt{
+div.tartsweet,  div.cherriestxt{
     background: gray;
-    
+    font-size: 400;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    align-self: start;
+}
+
+div.cherriestxt {
+    color: red;
+    grid-column: 2/3;
+}
+
+div.tartsweet  {
+    grid-column: 1/3;
+}
+
+div.cherry_box{
+    z-index: 0;
+
 }

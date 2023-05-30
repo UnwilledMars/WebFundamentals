@@ -38,8 +38,10 @@ img#hero_img{
     width: 100%; 
 }
 div#background {
-    height: 725px;
-    background-color: #ffd342;
+    height: 875px;
+    background-color: #6f0808;
+    grid-column: 1/11;
+    grid-row: 4/8;
 }
 
 body {
@@ -57,8 +59,10 @@ header {
 main {
     color: #f53737;
 }
-main.home_grid{
+main.home_grid{     /*main section grid*/
     margin-top: 15px;
+    display:  grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 main section img{
     box-sizing: border-box;
@@ -69,7 +73,30 @@ section.camping_card, section.rivers_card, section.rapids_card, img.mountains {
 }
 img.card_img {
     border: 10px solid #6f0808;
+    width: 100%;
 }
+img.mountains {
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+}
+section.rivers_card {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+section.camping_card {
+    grid-row: 2/3;
+    grid-column: 5/7;
+}
+section.rapids_card {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+section.msg {
+    grid-column: 6/10;
+    grid-row: 6/7;
+}
+
 
 div#hero { /*grid to make hero message overlay on top of hero img */
     display: grid;

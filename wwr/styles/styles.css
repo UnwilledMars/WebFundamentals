@@ -132,8 +132,6 @@ section h4 {
 
 main.subpage_grid{     /*subpage grid css*/
     margin-top: 15px;
-    display:  grid;
-    grid-template-columns: repeat(2, 1fr);
 }
 main section img{
     box-sizing: border-box;
@@ -141,32 +139,20 @@ main section img{
 section.salmon_card, section.desolation_card, section.grand_card {
     margin-top: 200px;
     margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
 }
 
-section.salmon_card {
-    grid-column: 0/1;
-    grid-row: 0/1;
-}
-section.desolation_card {
-    grid-row: 0/1;
-    grid-column: 1/2;
-}
-section.grand_card {
-    grid-column: 0/1;
-    grid-row: 2/3;
-}
-section.salmon_card h4.salmon_p{
-    display: grid;
-    grid-column: 1/2;
+h4.salmon_p{
+    font-size: 1.3em;
 }
 h4.desolation_p {
-    display: grid;
-    grid-column: 1/2;
+    font-size: 1.3em;
 
 }
 h4.grand_p {
-    display: grid;
-    grid-column: 1/2;
+    font-size: 1.3em;
 }
 
 /*buttons and navigation*/

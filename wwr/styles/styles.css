@@ -130,7 +130,7 @@ section h4 {
     padding-bottom: 15px;
 }
 
-main.subpage_grid, main h4{     /*subpage grid css*/
+main.subpage_grid{     /*subpage grid css*/
     margin-top: 15px;
     display:  grid;
     grid-template-columns: repeat(2, 1fr);
@@ -155,16 +155,18 @@ section.grand_card {
     grid-column: 0/1;
     grid-row: 2/3;
 }
-h4.salmon_p{
+section.salmon_card h4.salmon_p{
+    display: grid;
     grid-column: 1/2;
 }
 h4.desolation_p {
+    display: grid;
     grid-column: 1/2;
-    grid-row: 1/2;
+
 }
 h4.grand_p {
+    display: grid;
     grid-column: 1/2;
-    grid-row: 2/3;
 }
 
 /*buttons and navigation*/

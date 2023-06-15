@@ -4,20 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rivers</title>
+    <title>White Water Rafting Adventure</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <nav><!--Navigation bar links to other parts of the site-->
-        <a href="index.html">Home</a>   
-        <a href="resources.html">Resources</a>
-        <a href="site-plan-rafting.html">Site Plan</a>
-        <a href="contact.html">Contact Us</a>
-    </nav>
+    <div id="content">
+        <header> <!--Header Containing Logo and Nav Bar-->
+        <a  id="logo_link" href="index.html"> <!-- Main Logo -->
+            <img class="logo" src="images/skelletons_logo.jpg" alt="Our Logo">
+        </a>
+        <nav><!--Navigation bar links to other parts of the site-->
+            <a href="index.html">Home</a>   
+            <a href="resources.html">Resources</a>
+            <a href="site-plan-rafting.html">Site Plan</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        </header>
 
-    
-
-
-    <Footer> <!--Footer Containing Copyright, Socials etc.-->
+        <main class="home_grid">  <!--Main Grid with 3 large Images and Final Message before footer-->
+            <section class="rivers_card">
+                <img class="card_img" src="images/SalmonRiver.jpg" alt="Utah Salmon River">
+                <h2>Main Fork of the Salmon River, Idaho</h2>
+            </section>
+            <section class="camping_card">
+            <img class="card_img" src="images/DesolationCanyon.jpg" alt="Desolation Canyon River">
+            <h2>Desolation and Gray Canyon, Utah</h2>
+            </section>
+            <section class="rapids_card">
+                <img class="card_img" src="images/GrandCanyon1.jpg" alt="Grand Canyon  River">
+                <h2>Grand Canyon, Arizona</h2>
+            </section>
+        </main>
+        <Footer> <!--Footer Containing Copyright, Socials etc.-->
         <p>White Water Adventures &copy; 2023 - Braden Roenfeldt</p>
         <p><a href="contacntus.html">Contact Us</a></p>
         <p><a href="site-plan-rafting.html" target="_blank">Site Plan</a></p>
@@ -33,5 +51,6 @@
             </a>
         </div>
         </Footer>
+    </div>
 </body>
 </html>

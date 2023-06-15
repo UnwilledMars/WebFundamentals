@@ -154,7 +154,11 @@ h4.desolation_p {
 h4.grand_p {
     font-size: 1.3em;
 }
-
+h1{
+    color: #f53737;
+    text-align: center;
+    margin-bottom: -50px;
+}
 /*buttons and navigation*/
 img.logo, img.icon {
     max-width: 80px;

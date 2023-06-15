@@ -130,7 +130,7 @@ section h4 {
     padding-bottom: 15px;
 }
 
-main.subpage_grid{     /*subpage grid css*/
+main.subpage_grid{    subpage grid css
     margin-top: 15px;
 }
 main section img{
@@ -154,11 +154,12 @@ h4.desolation_p {
 h4.grand_p {
     font-size: 1.3em;
 }
-h1{
+h1.rivers_title{
     color: #f53737;
     text-align: center;
     margin-bottom: -50px;
 }
+
 /*buttons and navigation*/
 img.logo, img.icon {
     max-width: 80px;

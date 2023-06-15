@@ -59,6 +59,7 @@ header {
 main {
     color: #f53737;
 }
+/*home page grid css*/
 main.home_grid{     /*main section grid*/
     margin-top: 15px;
     display:  grid;
@@ -127,6 +128,43 @@ section#hero_message {
 }
 section h4 {
     padding-bottom: 15px;
+}
+
+main.subpage_grid, main h4{     /*subpage grid css*/
+    margin-top: 15px;
+    display:  grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+main section img{
+    box-sizing: border-box;
+}
+section.salmon_card, section.desolation_card, section.grand_card {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+section.salmon_card {
+    grid-column: 0/1;
+    grid-row: 0/1;
+}
+section.desolation_card {
+    grid-row: 0/1;
+    grid-column: 1/2;
+}
+section.grand_card {
+    grid-column: 0/1;
+    grid-row: 2/3;
+}
+h4.salmon_p{
+    grid-column: 1/2;
+}
+h4.desolation_p {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+h4.grand_p {
+    grid-column: 1/2;
+    grid-row: 2/3;
 }
 
 /*buttons and navigation*/

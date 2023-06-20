@@ -251,57 +251,13 @@ footer div.socials {
 }
 
 
-/*screen size CSS*/
-@media screen and (max-width: 900px) {
-        div#hero, main.home_grid {
-        display: block;
-        height: auto;
-    }
-    nav, footer {
-        flex-direction: column;
-    }
-    nav a {
-        display: block;
-        padding: 15px;
-    }
-    div#hero {
-        margin-top: 0;
-    }
-    section#hero_message {
-        margin-top: 0;
-    }
-    section#hero_message h4 {
-        display: none;
-    }
-    h1.home_title {
-        font-size: 25px;
-        color: #6f0808;
-    }
-    section.rivers-card, section.camping-card, section.rapids-card { 
-        margin: 50px auto;
-        width: 60%;
-    }
-    div#background {
-        display: none;
-    }
-    img.mountains, section.msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
-    footer {
-        margin-top: 25px;
-    }
-}
-
-
 
 
 form {  /*contact us css*/
     /* Center the form on the page */
     margin: 0 auto;
     margin-top: 150px;
-    width: 400px;
+    width: 450px;
     /* Form outline */
     padding: 1em;
     border: 1px solid #ccc;
@@ -323,8 +279,9 @@ form {  /*contact us css*/
   label {
     /* Uniform size & alignment */
     display: inline-block;
-    width: 90px;
+    width: 120px;
     text-align: right;
+    font: 1em Bruno Ace;
   }
   
   input,
@@ -368,3 +325,47 @@ form {  /*contact us css*/
     color: #ffd342;
   }
   
+
+/*screen size CSS*/
+@media screen and (max-width: 900px) {
+    div#hero, main.home_grid {
+    display: block;
+    height: auto;
+}
+nav, footer {
+    flex-direction: column;
+}
+nav a {
+    display: block;
+    padding: 15px;
+}
+div#hero {
+    margin-top: 0;
+}
+section#hero_message {
+    margin-top: 0;
+}
+section#hero_message h4 {
+    display: none;
+}
+h1.home_title {
+    font-size: 25px;
+    color: #6f0808;
+}
+section.rivers-card, section.camping-card, section.rapids-card { 
+    margin: 50px auto;
+    width: 60%;
+}
+div#background {
+    display: none;
+}
+img.mountains, section.msg {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+footer {
+    margin-top: 25px;
+}
+}
+

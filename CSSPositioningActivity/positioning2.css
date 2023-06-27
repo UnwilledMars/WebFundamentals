@@ -5,9 +5,17 @@ section {
 }
 
 section.block1 {
-    align-self: left;
+margin-right: auto;
 }
 
 section.block2 {
-    align-self: center;
+    margin: 0 auto;
+}
+
+section.block3 {
+    margin-left: auto;
+}
+
+section.block4 {
+    margin: 0 auto;
 }

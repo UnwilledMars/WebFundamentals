@@ -1,0 +1,13 @@
+section {
+  width: 50%;
+  border: 1px solid;
+  display: block;
+}
+
+section.block1 {
+    align-self: left;
+}
+
+section.block2 {
+    align-self: center;
+}
